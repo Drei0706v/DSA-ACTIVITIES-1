@@ -153,15 +153,15 @@ int main() {
     cout << "Playlist before deletions:" << endl;
     traverse(head);
 
-    cout << "\nDeleting the song at the end (\"Sunsetz\"): " << endl;
+    cout << "Deleting the song at the end (\"Sunsetz\"): \n" << endl;
     cout << deleteAtEnd(head) << endl;
     traverse(head);
 
-    cout << "\nDeleting the song at the beginning (\"Sanctuary\"): " << endl;
+    cout << "Deleting the song at the beginning (\"Sanctuary\"): \n" << endl;
     head = deleteFromBeginning(head);
     traverse(head);
 
-    cout << "\nDeleting a specific song (\"Secret Love Song\" - least favorite): " << endl;
+    cout << "Deleting a specific song (\"Secret Love Song\" - least favorite): \n" << endl;
     head = deleteFromGivenNode("Secret Love Song", head);
     traverse(head);
 
